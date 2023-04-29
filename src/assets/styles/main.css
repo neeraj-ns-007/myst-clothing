@@ -1,0 +1,5 @@
+@import '../styles/header/header';
+@import '../styles/footer/footer';
+@import '../styles/home/topPicks';
+@import '../styles/home/bestSellers';
+@import '../styles/home/banner';
