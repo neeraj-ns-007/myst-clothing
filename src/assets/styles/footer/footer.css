@@ -1,0 +1,85 @@
+.footer-container {
+  margin-top: 2rem;
+}
+.footer-container .footer-sec-top {
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 2rem 0;
+  font-weight: 600;
+}
+.footer-container .footer-sec-top span {
+  text-align: right;
+}
+.footer-container .footer-sec-top .subscribe-section {
+  display: flex;
+}
+@media screen and (max-width: 902px) {
+  .footer-container .footer-sec-top span {
+    text-align: center;
+  }
+  .footer-container .footer-sec-top .subscribe-section {
+    padding: 1rem 1rem 0 1rem;
+    justify-content: center;
+  }
+}
+.footer-container .footer-sec-middle .footer-sec-row {
+  display: flex;
+  width: 71.213rem;
+  margin: auto;
+  padding-top: 3rem;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col {
+  width: 33.33333%;
+  padding: 0 1rem;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col .footer-list-heading {
+  font-weight: 600;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col .footer-list-heading .footer-accordian-down-arrow {
+  display: none;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col .footer-list-links {
+  padding-top: 1.8rem;
+  list-style: none;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col .footer-list-links li {
+  padding-bottom: 18px;
+}
+.footer-container .footer-sec-middle .footer-sec-row .footer-sec-col .footer-list-icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 1.8rem;
+  font-size: 1.5rem;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  row-gap: 0.5rem;
+}
+@media screen and (max-width: 1280px) {
+  .footer-container .footer-sec-middle .footer-sec-row {
+    width: 60rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer-container .footer-sec-middle .footer-sec-row {
+    display: none;
+  }
+}
+.footer-container .footer-sec-middle .footer-sec-row-accordion {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .footer-container .footer-sec-middle .footer-sec-row-accordion {
+    display: block;
+  }
+}
+.footer-container .footer-sec-bottom .footer-btm-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-top: 1px solid #d3d3d3;
+  font-size: small;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+@mixin icon-text ($fontSize) {
+    display: flex;
+    align-items: center;
+
+    span {
+        font-size: $fontSize;
+        cursor: pointer;
+    }
+}

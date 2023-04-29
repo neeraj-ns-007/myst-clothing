@@ -1,0 +1,27 @@
+@import '../themes/theme.scss';
+
+.main-sec-row-2 {
+    .best-seller-head {
+        padding: 2rem 0;
+        border-top: 1px solid $border-color;
+    }
+    .best-seller-plp {
+        padding-bottom: 2rem;
+        .plp-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            column-gap: 2rem;
+            margin: auto;
+            width: 57.24rem;
+            justify-content: center;
+
+            .pd-wrapper-hm {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 1px solid $border-color;
+            }
+        }
+    }
+}

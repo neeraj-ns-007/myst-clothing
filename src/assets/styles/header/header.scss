@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+@import '../themes/theme.scss';
+@import '../mixins/commonMixins.scss';
+
+body , html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif !important;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #a3b1b2;
+        border-radius: 10px;
+    }
+}
+
+.header-container {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    background-color: $white;
+
+    .header-promo-section {
+        background-color: $promo-dark-background;
+        color: $white;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .header-nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem 0;
+
+        .header-section-left {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-basis: 33%;
+            column-gap: 1rem;
+            padding-left: 1.8rem;
+
+            .hamburger-menu-mobile {
+                display: none;
+            }
+
+
+            .icon-with-text {
+                @include icon-text(0.8rem);
+                column-gap: 0.5rem;
+            }
+
+            .search-icon {
+                display: none;
+            }
+            @media screen and (max-width: $xl) {
+
+                .hamburger-menu-mobile {
+                    display: block;
+                }
+                .icon-with-text {
+                    span {
+                        display: none;
+                    }
+                }
+                .mail-icon {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: $lg) {
+
+                .search-icon {
+                    display: block;
+                }
+
+                .globe-icon {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: $sm) {
+
+                padding-left: 1rem;
+                .location-icon {
+                    display: none;
+                }
+            }
+        }
+
+        .header-section-center {
+            display: flex;
+            flex-basis: 33%;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+
+            span {
+                font-size: 1.4rem;
+            }
+
+            @media screen and (max-width: $md) {
+
+                span {
+                    font-size: 1.2rem;
+                }
+            }
+
+            @media screen and (max-width: '610px') {
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        .header-section-right {
+            display: flex;
+            flex-basis: 33%;
+            justify-content: flex-end;
+            align-items: flex-start;
+            column-gap: 1rem;
+            padding-right: 1.8rem;
+
+            .icon-with-text-sm {
+                @include icon-text(0.54rem);
+                flex-direction: column;
+            }
+
+            @media screen and (max-width: $xl) {
+
+                .icon-with-text-sm {
+
+                    span {
+                        display: none;
+                    }
+                }
+                .profile-icon {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: $lg) {
+
+                .search-icon {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: $sm) {
+
+                padding-right: 1rem;
+            }
+        }
+    }
+
+    .header-category-section {
+        display: flex;
+        justify-content: center;
+        column-gap: 1.5rem;
+        font-weight: $fontWeight-m;
+        margin-bottom: 1rem;
+
+        span {
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: $xl) {
+            display: none;
+        }
+    }
+
+}
+
+.slider-container {
+
+    .swiper-button-prev, .swiper-button-next { color: $primary-color;}
+}

@@ -1,0 +1,235 @@
+{
+    "HEADERPROMO": "Get 20% Off from shopping with using 'REACT20'",
+    "ICONSIZE": "1.4rem",
+    "STORENAME": "MYST CLOTHING",
+    "CATEGORY": ["NEW ARRIVALS", "GIFTS", "BAGS", "WOMAN", "MAN", "PINK PP", "ICONS ONLY", "CHEZ MAISON VALENTINO"],
+    "TOPPICKSCATEGORY": {
+        "categoryHeading": "TOP PICKS",
+        "categoryItems": [
+            {
+                "catName": "WOMENS'S BAGS",
+                "catImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+                "catLink": "https://"
+            },
+            {
+                "catName": "WOMENS'S SHOES",
+                "catImage": "https://images.unsplash.com/photo-1494955464529-790512c65305?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+                "catLink": "https://"
+            },
+            {
+                "catName": "MENS'S BAGS",
+                "catImage": "https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                "catLink": "https://"
+            },
+            {
+                "catName": "MENS'S SHOES",
+                "catImage": "https://plus.unsplash.com/premium_photo-1670983858348-84276a682db7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                "catLink": "https://"
+            }
+        ]
+    },
+    "CURRENCY": ["$", "€", "₹"],
+    "HOMEPAGEPLP": {
+        "heading": "BEST SELLERS",
+        "products": [
+            {
+                "pid": "00000001",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "99.99",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            },
+            {
+                "pid": "00000002",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "19.99",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            },
+            {
+                "pid": "00000003",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "14.99",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            },
+            {
+                "pid": "00000004",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "69.99",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            },
+            {
+                "pid": "00000005",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "44.89",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            },
+            {
+                "pid": "00000006",
+                "name": "Test Product not for sale, only for testing purposes",
+                "price": "24.99",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae numquam. Eius, dolore dicta vero officiis expedita nihil at porro sit esse ipsam minima provident quis! Veritatis quos dolore eum!",
+                "images": {
+                    "small": "https://via.placeholder.com/250x300",
+                    "medium": "https://via.placeholder.com/250x300",
+                    "large": "https://via.placeholder.com/250x300",
+                    "xLarge": "https://via.placeholder.com/250x300",
+                    "hoverImage": "https://via.placeholder.com/250x300"
+                },
+                "size": ["SMALL", "MEDIUM", "LARGE", "XL", "XXL"],
+                "link": "https://",
+                "online": true,
+                "inStock": "100",
+                "color": [
+                    {
+                        "name": "SLASH RED",
+                        "hash": "#f00c51"
+                    },
+                    {
+                        "name": "AQUATIC BLUE",
+                        "hash": "#1666ee"
+                    },
+                    {
+                        "name": "NIGHT GREY",
+                        "hash": "#5c5c64"
+                    }
+                ]
+            }
+        ]
+    },
+    "BANNERS": {
+        "heading": "DISOVER MORE",
+        "imagesURL": [
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
+            "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+        ]
+    },
+    "FASHIONQUOTE": {
+        "quote": "\"La moda se desvanece, pero el estilo es eterno.\"",
+        "translated": "Fashions fades, but style is eternal."
+    },
+    "VOID": "https://"
+}

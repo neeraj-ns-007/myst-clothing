@@ -1,0 +1,112 @@
+{
+    "newsLetterMsg": "SUBSCRIBE TO THE OUR NEWSLETTER",
+    "searchBarPlaceHolder": "Insert your email",
+    "subscribeBtn": "SUBSCRIBE",
+    "footerInfo": [
+        {
+            "listHeading": "CUSTOMER CARE",
+            "links": [{
+                    "name": "May we help you?",
+                    "link": "#"
+                },
+                {
+                    "name": "Exclusive Services",
+                    "link": "#"
+                },
+                {
+                    "name": "Contact Us",
+                    "link": "#"
+                },
+                {
+                    "name": "Shipping",
+                    "link": "#"
+                },
+                {
+                    "name": "Returns and Refunds",
+                    "link": "#"
+                },
+                {
+                    "name": "Follow your Order",
+                    "link": "#"
+                },
+                {
+                    "name": "Boutique Services",
+                    "link": "#"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "listHeading": "THE COMPANY",
+            "links": [{
+                    "name": "World of React",
+                    "link": "#"
+                },
+                {
+                    "name": "Creating Shared Value",
+                    "link": "#"
+                },
+                {
+                    "name": "Careers",
+                    "link": "#"
+                },
+                {
+                    "name": "Corporate Information",
+                    "link": "#"
+                },
+                {
+                    "name": "Integrity Helpline",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "listHeading": "LEGAL AREA",
+            "links": [{
+                    "name": "Terms and Conditions of Sale",
+                    "link": "#"
+                },
+                {
+                    "name": "Return Policy",
+                    "link": "#"
+                },
+                {
+                    "name": "Privacy Policy",
+                    "link": "#"
+                },
+                {
+                    "name": "DPO",
+                    "link": "#"
+                }
+            ]
+        }
+    ],
+    "followUs": {
+        "listHeading": "FOLLOW US",
+        "links": [{
+                "name": "FaInstagram",
+                "link": "#"
+            },
+            {
+                "name": "FaFacebookF",
+                "link": "#"
+            },
+            {
+                "name": "FaTwitter",
+                "link": "#"
+            },
+            {
+                "name": "FaYoutube",
+                "link": "#"
+            },
+            {
+                "name": "FaSnapchatGhost",
+                "link": "#"
+            }
+        ]
+    },
+    "copyrightInfo": "Powered by REACT Copyright 2023 META S.p.A. - All rights reserved - VAT 00000000069 Vendor information"
+}

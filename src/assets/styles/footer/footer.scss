@@ -1,0 +1,96 @@
+@import '../themes/theme.scss';
+
+.footer-container {
+    margin-top: 2rem;
+
+    .footer-sec-top {
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        padding: 2rem 0;
+        font-weight: $fontWeight-m;
+
+        span {
+            text-align: right;
+        }
+        .subscribe-section {
+            display: flex;
+        }
+
+        @media screen and (max-width: '902px') {
+
+            span {
+                text-align: center;
+            }
+            .subscribe-section {
+                padding: 1rem 1rem 0 1rem;
+                justify-content: center;
+            }
+        }
+    }
+    .footer-sec-middle {
+
+        .footer-sec-row {
+            display: flex;
+            width: 71.213rem;
+            margin: auto;
+            padding-top: 3rem;
+            .footer-sec-col {
+                width: 33.33333%;
+                padding: 0 1rem;
+                .footer-list-heading{
+                    font-weight: $fontWeight-m;
+
+                    .footer-accordian-down-arrow {
+                        display: none;
+                    }
+                }
+                .footer-list-links{
+                    padding-top: 1.8rem;
+                    list-style: none;
+
+                    li {
+                        padding-bottom: 18px;
+                    }
+                }
+                .footer-list-icons{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    padding-top: 1.8rem;
+                    font-size: 1.5rem;
+                    max-width: min-content;
+                    column-gap: 1.5rem;
+                    row-gap: 0.5rem;
+                }
+            }
+
+            @media screen and (max-width: $xl) {
+                width: 60rem;
+            }
+
+            @media screen and (max-width: '960px') {
+                    display: none;
+            }
+        }
+
+        .footer-sec-row-accordion {
+            display: none;
+
+            @media screen and (max-width: '960px'){
+                display: block;
+            }
+        }
+    }
+
+    .footer-sec-bottom {
+
+        .footer-btm-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem 1rem;
+            border-top: 1px solid $border-color;
+            font-size: small;
+            text-align: center;
+        }
+    }
+}
