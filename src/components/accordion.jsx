@@ -1,19 +1,11 @@
-import {
-    Accordion,
-    AccordionItem,
-    AccordionButton,
-    AccordionPanel,
-    AccordionIcon,
-    UnorderedList,
-    ListItem,
-    Box,
-    SimpleGrid,
-    Icon
-} from '@chakra-ui/react';
+import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, UnorderedList, ListItem, Box, SimpleGrid, Icon } from '@chakra-ui/react';
 import { SlArrowDown } from 'react-icons/sl';
 import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost} from 'react-icons/fa';
+
 import footerConfigs from "../data/footer.json";
+
 export const FooterAccordion = () => {
+    
     return(
         <Accordion allowToggle>
             {footerConfigs.footerInfo.map((item, i) => (

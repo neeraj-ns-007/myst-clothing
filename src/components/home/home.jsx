@@ -1,23 +1,20 @@
 import { useMediaQuery, Box, Image, Text, Button, SimpleGrid } from "@chakra-ui/react";
 import preference from '../../data/homePageConfigs.json';
+import { getProductImageURL } from '../../utils/productImage';
+
 import Headers from '../header/header';
 import Slider from "../slider";
 import Footer from '../footer/footer';
+
 import placeholderImage from '../../assets/images/no-image-placeholder.gif'
 import lineSeparator from '../../assets/images/decorative-separator.svg';
 
 //<Tooltip hasArrow label="Hey, I'm here!" aria-label='A tooltip'></Tooltip>
-function getProductImageURL(imageList){
-    if(!imageList) {
-        return placeholderImage;
-    } else {
-        return imageList.small;
-    }
-};
 
 const Home = () => {
     const [isTab] = useMediaQuery("(max-width: 1075px)");
     const [isMobile] = useMediaQuery("(max-width: 528px)");
+    
     return(
         <>
             <Headers />

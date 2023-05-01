@@ -1,7 +1,9 @@
 import { Icon, Input, Button, SimpleGrid, useMediaQuery } from '@chakra-ui/react';
 import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost} from 'react-icons/fa';
-import footerConfigs from "../../data/footer.json";
+
 import { FooterAccordion } from "../accordion";
+import footerConfigs from "../../data/footer.json";
+
 const Footer = () => {
     const [isTab] = useMediaQuery("(max-width: 902px)");
 
