@@ -1,5 +1,5 @@
 // Utility for product
-import placeholderImage from '../assets/images/no-image-placeholder.gif'
+import placeholderImage from '../../assets/images/no-image-placeholder.gif'
 
 export function getProductImageURL (image) {
     if(!image) {

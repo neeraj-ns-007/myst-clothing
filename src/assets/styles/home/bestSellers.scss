@@ -1,4 +1,5 @@
 @import '../themes/theme.scss';
+@import '../mixins/commonMixins.scss';
 
 .main-sec-row-2 {
     .best-seller-head {
@@ -8,19 +9,49 @@
     .best-seller-plp {
         padding-bottom: 2rem;
         .plp-grid {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            gap: 20px;
-            column-gap: 2rem;
-            margin: auto;
-            width: 60%;
-            justify-content: center;
 
-            .pd-wrapper-hm {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                border: 1px solid $border-color;
+            .swiper {
+
+                .swiper-button-prev {
+                    @include carousel-icon(180deg);
+                }
+                .swiper-button-next {
+                    @include carousel-icon(0deg);
+                }
+
+                .swiper-wrapper {
+                    @media screen and (min-width: $lg) {
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+                        column-gap: 2rem;
+                        row-gap: 2rem;
+                        justify-content: center;
+                        width: auto;
+
+                        .swiper-slide {
+                            width: 18rem !important;
+
+                            .pd-wrapper-hm {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                border: 1px solid $border-color;
+                            }
+                        }
+                    }
+                    @media screen and (max-width: '786px') {
+                        .swiper-slide{
+                            width: 100% !important;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            .pd-wrapper-hm {
+                                width: 23.35rem;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

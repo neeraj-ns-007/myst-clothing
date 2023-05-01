@@ -5,19 +5,54 @@
 .main-sec-row-2 .best-seller-plp {
   padding-bottom: 2rem;
 }
-.main-sec-row-2 .best-seller-plp .plp-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-  margin: auto;
-  width: 60%;
-  justify-content: center;
+.main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-button-prev {
+  background-image: url("../../images/carousel-nav-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transform: rotate(180deg);
 }
-.main-sec-row-2 .best-seller-plp .plp-grid .pd-wrapper-hm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #d3d3d3;
+.main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-button-prev::after {
+  display: none;
+}
+.main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-button-next {
+  background-image: url("../../images/carousel-nav-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transform: rotate(0deg);
+}
+.main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-button-next::after {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    width: auto;
+  }
+  .main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-wrapper .swiper-slide {
+    width: 18rem !important;
+  }
+  .main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-wrapper .swiper-slide .pd-wrapper-hm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+  }
+}
+@media screen and (max-width: 786px) {
+  .main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-sec-row-2 .best-seller-plp .plp-grid .swiper .swiper-wrapper .swiper-slide .pd-wrapper-hm {
+    width: 23.35rem;
+  }
 }
