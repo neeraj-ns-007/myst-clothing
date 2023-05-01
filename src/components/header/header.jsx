@@ -1,15 +1,12 @@
 import React from 'react';
-import preference from '../../data/homePageConfigs.json';
-import {
-    Icon,
-    Box,
-    Image,
-    Button,
-    Link,
-    Drawer,DrawerBody,DrawerFooter,DrawerHeader,DrawerOverlay,DrawerContent,DrawerCloseButton,useDisclosure
+import { Icon, Box, Image, Button, Link,
+        Drawer,DrawerBody,DrawerFooter,DrawerHeader,DrawerOverlay,DrawerContent,DrawerCloseButton,useDisclosure
 } from '@chakra-ui/react';
+
 import { FaUserCircle, FaRegHeart, FaShoppingCart, FaSearch, FaGlobeAmericas, FaMailBulk, FaMapMarkerAlt, FaChevronRight } from 'react-icons/fa';
 import { AiOutlineMenu } from "react-icons/ai";
+
+import preference from '../../data/homePageConfigs.json';
 
 const Header = () => {
     const btnRef = React.useRef();

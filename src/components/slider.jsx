@@ -1,8 +1,9 @@
+import { Image, AspectRatio, useMediaQuery } from '@chakra-ui/react';
+import placeholderImage from '../assets/images/no-image-placeholder.gif';
+
 // import Swiper core and required modules
 import { Navigation, A11y, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Image, AspectRatio, useMediaQuery } from '@chakra-ui/react'
-import placeholderImage from '../assets/images/no-image-placeholder.gif'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -11,18 +12,18 @@ import 'swiper/css/scrollbar';
 
 const Slider = () => {
     const [isTab] = useMediaQuery("(max-width: 768px)");
+
     return (
         <div className="slider-container">
             <Swiper
             modules={[Navigation, A11y, Autoplay]}
             slidesPerView={1}
             navigation
-            speed={3000}
+            speed={2000}
             spaceBetween={15}
             autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-
+                delay: 5000,
+                disableOnInteraction: false
             }}
             loop={true}
             >

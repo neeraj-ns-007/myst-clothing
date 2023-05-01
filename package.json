@@ -2,7 +2,7 @@
   "name": "chakra-storefront",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://neeraj-ns-007/mystclothing.github.io",
+  "homepage": "https://neeraj-ns-007/myst-clothing",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.18",
     "@chakra-ui/modal": "^2.2.11",
