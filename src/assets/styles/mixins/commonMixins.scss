@@ -7,3 +7,15 @@
         cursor: pointer;
     }
 }
+
+@mixin carousel-icon ($direction) {
+    background-image: url('../../images/carousel-nav-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: rotate($direction);
+
+    &::after {
+        display: none;
+    }
+}

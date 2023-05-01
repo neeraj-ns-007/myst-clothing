@@ -1,12 +1,15 @@
-import { useMediaQuery, Box, Image, Text, Button, SimpleGrid } from "@chakra-ui/react";
+import { useMediaQuery, Box, Image, SimpleGrid } from "@chakra-ui/react";
 import preference from '../../data/homePageConfigs.json';
-import { getProductImageURL } from '../../utils/productImage';
 
 import Headers from '../header/header';
-import Slider from "../slider";
+import HomeMainCarousel from "../carousel/homeCarousel";
+import ProductTile from "../../utils/product/productTile";
 import Footer from '../footer/footer';
 
-import placeholderImage from '../../assets/images/no-image-placeholder.gif'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, A11y, Autoplay} from 'swiper';
+
+import placeholderImage from '../../assets/images/no-image-placeholder.gif';
 import lineSeparator from '../../assets/images/decorative-separator.svg';
 
 //<Tooltip hasArrow label="Hey, I'm here!" aria-label='A tooltip'></Tooltip>
@@ -14,11 +17,11 @@ import lineSeparator from '../../assets/images/decorative-separator.svg';
 const Home = () => {
     const [isTab] = useMediaQuery("(max-width: 1075px)");
     const [isMobile] = useMediaQuery("(max-width: 528px)");
-    
+
     return(
         <>
             <Headers />
-            <Slider />
+            <HomeMainCarousel />
             <div className="main-sec-container">
                 <div className="main-sec-row-1">
                     <div className="cat-top-picks">
@@ -43,16 +46,38 @@ const Home = () => {
                     </div>
                     <div className="best-seller-plp">
                         <div className="plp-grid">
-                            {preference.HOMEPAGEPLP.products.map((product, i) => (
-                                <div className="pd-wrapper-hm" key={i}>
-                                    <Box as="div" display={'flex'} flexDirection={'column'} alignItems={'center'}>
-                                        <Image src={getProductImageURL(product.images)} objectFit={'fill'} fallbackSrc={placeholderImage} />
-                                        <Text fontWeight={500} textAlign={'center'} padding={'1.5rem 0 0.5rem 0'} letterSpacing={'0'}>{product.name}</Text>
-                                        <Text fontWeight={500} fontSize={'0.9rem'} letterSpacing={'0'} paddingBottom={'1.5rem'}>{preference.CURRENCY[1] + ' ' + product.price}</Text>
-                                        <Button height={'35px'} width={'100%'} colorScheme={'none'} backgroundColor={'black'} border='none' borderRadius={0} fontSize={'1rem'} fontWeight={'none'}>ADD</Button>
-                                    </Box>
-                                </div>
-                            ))}
+                            <Swiper
+                                modules={[Navigation, A11y, Autoplay]}
+                                slidesPerView={1}
+                                navigation
+                                breakpoints={{
+                                    786: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 10,
+                                        autoplay: {
+                                            delay: 5000,
+                                            disableOnInteraction: false
+                                        },
+                                        loop: true
+                                    },
+                                    1024: {
+                                        slidesPerView: 'auto',
+                                        spaceBetween: 0,
+                                        freeMode: false,
+                                        simulateTouch: false,
+                                        loop: false,
+                                        navigation: {
+                                            enabled: false
+                                        }
+                                    }
+                                }}
+                                >
+                                {preference.HOMEPAGEPLP.products.map((product, i) => (
+                                    <SwiperSlide key={i} >
+                                        <ProductTile product={product} />
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 import { Image, AspectRatio, useMediaQuery } from '@chakra-ui/react';
-import placeholderImage from '../assets/images/no-image-placeholder.gif';
+import placeholderImage from '../../assets/images/no-image-placeholder.gif';
 
 // import Swiper core and required modules
-import { Navigation, A11y, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, A11y, Autoplay} from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
