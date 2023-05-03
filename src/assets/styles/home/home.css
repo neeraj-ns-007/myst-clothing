@@ -1,3 +1,7 @@
+.main-sec-container .main-sec-row-1 .cat-top-picks {
+  padding: 2rem 0;
+}
+
 .main-sec-row-2 .best-seller-head {
   padding: 2rem 0;
   border-top: 1px solid #d3d3d3;
@@ -47,4 +51,18 @@
   .main-sec-row-2 .best-seller-plp .plp-grid .swiper {
     width: 80%;
   }
+}
+
+.main-sec-row-3 .row-3-head {
+  padding: 2rem 0;
+  border-top: 1px solid #d3d3d3;
+}
+.main-sec-row-3 .row-3-img-container {
+  display: flex;
+  padding-bottom: 8rem;
+}
+.main-sec-row-3 .row-3-quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

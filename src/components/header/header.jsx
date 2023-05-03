@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, Box, Image, Button, Link,
+import { Link } from 'react-router-dom'
+import { Icon, Box, Image, Button,
         Drawer,DrawerBody,DrawerFooter,DrawerHeader,DrawerOverlay,DrawerContent,DrawerCloseButton,useDisclosure
 } from '@chakra-ui/react';
 
@@ -30,9 +31,9 @@ const Header = () => {
                                 <DrawerBody>
                                     <Box as={'div'} display={'flex'} flexDirection={'column'}>
                                         {preference.CATEGORY.map((category, i) => (
-                                            <Link href={preference.VOID} key={i} >
+                                            <a href={preference.VOID} key={i} >
                                                 <Button fontSize={'1.4rem'} borderRadius={0} width={'100%'} padding={'2rem 0'} justifyContent="space-between" borderBottom={'1px solid #d3d3d3'} backgroundColor={'transparent'} rightIcon={<FaChevronRight />}>{category}</Button>
-                                            </Link>
+                                            </a>
                                         ))}
                                     </Box>
                                 </DrawerBody>
@@ -60,8 +61,12 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="header-section-center">
-                    <Image cursor="pointer" src={'https://myst-clothing.sirv.com/Images/mystassets/site-logo.png?w=50&h=65&format=png&q=100'} alt='Main Logo' />
-                    <span>{preference.STORENAME}</span>
+                    <Link to='/home'>
+                        <Image cursor="pointer" src={'https://myst-clothing.sirv.com/Images/mystassets/site-logo.png?w=50&h=65&format=png&q=100'} alt='Main Logo' />
+                    </Link>
+                    <Link to='/home'>
+                        <span>{preference.STORENAME}</span>
+                    </Link>
                 </div>
                 <div className="header-section-right">
                     <div className="icon-with-text-sm search-icon">
@@ -72,10 +77,12 @@ const Header = () => {
                         <Icon cursor="pointer" boxSize={preference.ICONSIZE} as={FaUserCircle} />
                         <span>PROFILE</span>
                     </div>
-                    <div className="icon-with-text-sm wishlist-icon">
-                        <Icon cursor="pointer" boxSize={preference.ICONSIZE} as={FaRegHeart} />
+                    <Link to='/maintainancepage'>
+                        <div className="icon-with-text-sm wishlist-icon">
+                            <Icon cursor="pointer" boxSize={preference.ICONSIZE} as={FaRegHeart} />
                         <span>WISHLIST</span>
-                    </div>
+                        </div>
+                    </Link>
                     <div className="icon-with-text-sm cart-icon">
                         <Icon cursor="pointer" boxSize={preference.ICONSIZE} as={FaShoppingCart} />
                         <span>CART</span>

@@ -1,10 +1,10 @@
 import { useMediaQuery, Box, Image, SimpleGrid } from "@chakra-ui/react";
 import preference from '../../data/homePageConfigs.json';
 
-import Headers from '../header/header';
-import HomeMainCarousel from "../carousel/homeCarousel";
-import ProductTile from "../../utils/product/productTile";
-import Footer from '../footer/footer';
+import Headers from '../../components/header/header';
+import HomeMainCarousel from "../../components/carousel/homeCarousel";
+import ProductTile from "../../components/productTile/productTile";
+import Footer from '../../components/footer/footer';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Autoplay} from 'swiper';
@@ -51,24 +51,17 @@ const Home = () => {
                                 slidesPerView={1}
                                 navigation
                                 breakpoints={{
-                                    786: {
-                                        slidesPerView: 3,
-                                        spaceBetween: 10,
-                                        autoplay: {
-                                            delay: 5000,
-                                            disableOnInteraction: false
-                                        },
-                                        loop: true
+                                    0: {
+                                        slidesPerView: 1
                                     },
-                                    1024: {
-                                        slidesPerView: 'auto',
-                                        spaceBetween: 0,
-                                        freeMode: false,
-                                        simulateTouch: false,
-                                        loop: false,
-                                        navigation: {
-                                            enabled: false
-                                        }
+                                    563: {
+                                        slidesPerView: 2
+                                    },
+                                    960: {
+                                        slidesPerView: 3
+                                    },
+                                    1280: {
+                                        slidesPerView: 4,
                                     }
                                 }}
                                 >
