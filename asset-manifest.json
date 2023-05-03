@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/myst-clothing/static/css/main.ef8174a8.css",
-    "main.js": "/myst-clothing/static/js/main.6ea5ce7b.js",
+    "main.css": "/myst-clothing/static/css/main.aaaf45f9.css",
+    "main.js": "/myst-clothing/static/js/main.d70e9d3d.js",
     "static/js/787.714d53a0.chunk.js": "/myst-clothing/static/js/787.714d53a0.chunk.js",
     "static/media/no-image-placeholder.gif": "/myst-clothing/static/media/no-image-placeholder.944411a7c9c471caee51.gif",
     "static/media/decorative-separator.svg": "/myst-clothing/static/media/decorative-separator.6763ab6bccec7a436ded2ab6836622ce.svg",
     "index.html": "/myst-clothing/index.html",
     "static/media/carousel-nav-icon.svg": "/myst-clothing/static/media/carousel-nav-icon.0c7dd7d18d901f7369ce.svg",
-    "main.ef8174a8.css.map": "/myst-clothing/static/css/main.ef8174a8.css.map",
-    "main.6ea5ce7b.js.map": "/myst-clothing/static/js/main.6ea5ce7b.js.map",
+    "main.aaaf45f9.css.map": "/myst-clothing/static/css/main.aaaf45f9.css.map",
+    "main.d70e9d3d.js.map": "/myst-clothing/static/js/main.d70e9d3d.js.map",
     "787.714d53a0.chunk.js.map": "/myst-clothing/static/js/787.714d53a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef8174a8.css",
-    "static/js/main.6ea5ce7b.js"
+    "static/css/main.aaaf45f9.css",
+    "static/js/main.d70e9d3d.js"
   ]
 }
