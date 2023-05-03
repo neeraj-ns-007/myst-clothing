@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost} from '
 import footerConfigs from "../data/footer.json";
 
 export const FooterAccordion = () => {
-    
+
     return(
         <Accordion allowToggle>
             {footerConfigs.footerInfo.map((item, i) => (

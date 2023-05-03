@@ -1,9 +1,16 @@
-import Home from './components/home/home';
+import { Route, Routes } from "react-router-dom";
+import Home from './pages/home/home';
+import MaintainancePage from "./components/maintenancePage";
 
 function App() {
   return (
     <>
-        <Home />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/myst-clothing" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="*" element={<MaintainancePage />} />
+      </Routes>
     </>
   );
 }
