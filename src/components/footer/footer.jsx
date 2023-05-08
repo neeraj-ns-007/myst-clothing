@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Icon, Input, Button, SimpleGrid, useMediaQuery } from '@chakra-ui/react';
 import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube, FaSnapchatGhost} from 'react-icons/fa';
 
@@ -43,7 +45,7 @@ const Footer = () => {
                             </div>
                             <ul className={'footer-list-links'}>
                                 {item.links.map((link, i) => (
-                                    <li key={i} ><a href={link.link}>{link.name}</a></li>
+                                    <li key={i} ><Link to={link.link}>{link.name}</Link></li>
                                 ))}
                             </ul>
                         </div>
@@ -53,11 +55,11 @@ const Footer = () => {
                             <span>{footerConfigs.followUs.listHeading}</span>
                         </div>
                         <div className={'footer-list-icons'}>
-                            <span><a href='#/'><Icon as={FaInstagram} /></a></span>
-                            <span><a href='#/'><Icon as={FaFacebookF} /></a></span>
-                            <span><a href='#/'><Icon as={FaTwitter} /></a></span>
-                            <span><a href='#/'><Icon as={FaYoutube} /></a></span>
-                            <span><a href='#/'><Icon as={FaSnapchatGhost} /></a></span>
+                            <span><a href='https://www.instagram.com/' target='_blank'><Icon as={FaInstagram} /></a></span>
+                            <span><a href='https://www.facebook.com/' target='_blank'><Icon as={FaFacebookF} /></a></span>
+                            <span><a href='https://twitter.com/' target='_blank'><Icon as={FaTwitter} /></a></span>
+                            <span><a href='https://youtube.com' target='_blank'><Icon as={FaYoutube} /></a></span>
+                            <span><a href='https://snapchat.com' target='_blank'><Icon as={FaSnapchatGhost} /></a></span>
                         </div>
                     </div>
 

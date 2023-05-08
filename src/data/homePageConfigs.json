@@ -9,22 +9,22 @@
             {
                 "catName": "WOMENS'S BAGS",
                 "catImage": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
-                "catLink": "https://"
+                "catLink": "/maintainancepage"
             },
             {
                 "catName": "WOMENS'S SHOES",
                 "catImage": "https://images.unsplash.com/photo-1494955464529-790512c65305?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-                "catLink": "https://"
+                "catLink": "/maintainancepage"
             },
             {
                 "catName": "MENS'S BAGS",
                 "catImage": "https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-                "catLink": "https://"
+                "catLink": "/maintainancepage"
             },
             {
                 "catName": "MENS'S SHOES",
                 "catImage": "https://plus.unsplash.com/premium_photo-1670983858348-84276a682db7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-                "catLink": "https://"
+                "catLink": "/maintainancepage"
             }
         ]
     },

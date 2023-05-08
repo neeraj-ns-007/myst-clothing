@@ -7,35 +7,35 @@
             "listHeading": "CUSTOMER CARE",
             "links": [{
                     "name": "May we help you?",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Exclusive Services",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Contact Us",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Shipping",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Returns and Refunds",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Follow your Order",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Boutique Services",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "FAQ",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 }
             ]
         },
@@ -43,23 +43,23 @@
             "listHeading": "THE COMPANY",
             "links": [{
                     "name": "World of React",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Creating Shared Value",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Careers",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Corporate Information",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Integrity Helpline",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 }
             ]
         },
@@ -67,19 +67,19 @@
             "listHeading": "LEGAL AREA",
             "links": [{
                     "name": "Terms and Conditions of Sale",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Return Policy",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "Privacy Policy",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 },
                 {
                     "name": "DPO",
-                    "link": "#"
+                    "link": "/maintainancepage"
                 }
             ]
         }
@@ -88,23 +88,23 @@
         "listHeading": "FOLLOW US",
         "links": [{
                 "name": "FaInstagram",
-                "link": "#"
+                "link": "/maintainancepage"
             },
             {
                 "name": "FaFacebookF",
-                "link": "#"
+                "link": "/maintainancepage"
             },
             {
                 "name": "FaTwitter",
-                "link": "#"
+                "link": "/maintainancepage"
             },
             {
                 "name": "FaYoutube",
-                "link": "#"
+                "link": "/maintainancepage"
             },
             {
                 "name": "FaSnapchatGhost",
-                "link": "#"
+                "link": "/maintainancepage"
             }
         ]
     },
