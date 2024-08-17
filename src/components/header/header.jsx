@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Icon, Box, Image, Button,
-        Drawer,DrawerBody,DrawerFooter,DrawerHeader,DrawerOverlay,DrawerContent,DrawerCloseButton,useDisclosure
-} from '@chakra-ui/react';
+        Drawer,DrawerBody,DrawerFooter,DrawerHeader,DrawerOverlay,DrawerContent,DrawerCloseButton,useDisclosure } from '@chakra-ui/react';
 
 import { FaUserCircle, FaRegHeart, FaShoppingCart, FaSearch, FaGlobeAmericas, FaMailBulk, FaMapMarkerAlt, FaChevronRight } from 'react-icons/fa';
 import { AiOutlineMenu } from "react-icons/ai";
