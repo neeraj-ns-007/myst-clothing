@@ -62,7 +62,7 @@ const Header = () => {
                 </div>
                 <div className="header-section-center">
                     <Link to='/home'>
-                        <Image cursor="pointer" src={'https://myst-clothing.sirv.com/Images/mystassets/site-logo.png?w=50&h=65&format=png&q=100'} alt='Main Logo' />
+                        <Image cursor="pointer" src={'https://myst-clothing.sirv.com/Images/myst-images/site-logo.png?w=50&h=65&format=png&q=100'} alt='Main Logo' />
                     </Link>
                     <Link to='/home'>
                         <span>{preference.STORENAME}</span>
